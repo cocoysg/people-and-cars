@@ -1,0 +1,53 @@
+.App {
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+  padding-top: 0;
+  width: 70vw;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ant-card-small .ant-card-body {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #f4f4f4;
+  border-radius: 6px 6px 0 0;
+}
+
+.ant-list-split .ant-list-item {
+  border-block-end: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
