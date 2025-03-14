@@ -33,9 +33,9 @@ const PersonCard = (props) => {
             props.disableEditRemove
               ? [] // Hide edit/delete/learn more when in Show Person page
               : [
+                  <a href={`/people/${id}`} style={styles.learnMore}>LEARN MORE</a>,
                   <EditOutlined onClick={handleButtonClick} />,
-                  <RemovePerson id={id} />,
-                  <a href={`/people/${id}`} style={styles.learnMore}>LEARN MORE</a>
+                  <RemovePerson id={id} />
                 ]
           }
         >
