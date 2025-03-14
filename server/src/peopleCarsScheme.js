@@ -1,14 +1,14 @@
 import find from 'lodash.find';
 import remove from 'lodash.remove';
 
-// Data array for people
+// Initial data array for people
 const people = [
   { id: '1', firstName: 'Bill', lastName: 'Gates' },
   { id: '2', firstName: 'Steve', lastName: 'Jobs' },
   { id: '3', firstName: 'Linux', lastName: 'Torvalds' }
 ];
 
-// Data array for cars
+// Initial data array for cars
 const cars = [
   { id: '1', year: 2019, make: 'Toyota', model: 'Corolla', price: 40000, personId: '1' },
   { id: '2', year: 2018, make: 'Lexus', model: 'LX 600', price: 13000, personId: '1' },

@@ -5,7 +5,7 @@ import http from "http";
 import cors from "cors";
 import bodyParser from "body-parser";
 import { expressMiddleware } from "@apollo/server/express4";
-import { typeDefs, resolvers } from "./src/schema";
+import { typeDefs, resolvers } from "./src/peopleCarsScheme";
 
 const startApolloServer = async (typeDefs, resolvers) => {
   const app = express();
